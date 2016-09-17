@@ -18,36 +18,28 @@
   border-bottom: 1.5px solid rgb(16, 143, 175);
 }
 
-.menu ul{
-  width: 100%;
-  max-width: auto;
-  height: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(49, 49, 49);
-  margin-top: 1.5px;
-  border-bottom: 1.5px solid black;
-  z-index: 2;
+.block::after{
+ content: '';
+ position: absolute;
+ border: 5px solid transparent;
+ border-top: 5px solid white;
+ top: 8px;
+ left: 105px;
 }
 
-ul li{
-  position: relative;
+.block1::after{
+ content: '';
+ position: absolute;
+ border: 5px solid transparent;
+ border-top: 5px solid white;
+ top: 8px;
+ left: 53px;
 }
 
-ul.submenu{
-  display: none;
-  flex-direction: column;
-  justify-content: flex-start;
-  position: absolute;
-  width: 160px;
-  height: 140px;
-  left: -10px;
-  margin-right: 5px;
-  z-index: 3;
-}
-
-div.menu > ul li:hover > ul.submenu{
-    display: flex;
+.block2::after{
+ content: '';
+ position: absolute;
+ border: 5px solid transparent;
+ border-top: 5px solid white;
+ top: 8px;
 }
