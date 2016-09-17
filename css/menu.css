@@ -1,23 +1,4 @@
 
-.wrapper{
-  width: 1000px;
-  height: auto;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0px 1px 8px 1px rgba(3,28,40,1);
-  margin: 0 auto;
-  border-bottom: 3px solid rgb(3, 29, 40);
-  margin-top: -4px;
-}
-
-.picture img{
-  width: 100%;
-  margin-top: -10px;
-  margin-bottom: -5px;
-  padding: 0px;
-  border-top: 1.5px solid rgb(16, 143, 175);
-  border-bottom: 1.5px solid rgb(16, 143, 175);
-}
-
 .menu ul{
   width: 100%;
   max-width: auto;
@@ -46,6 +27,12 @@ ul.submenu{
   left: -10px;
   margin-right: 5px;
   z-index: 3;
+}
+
+ul.submenu li{
+  margin-left: 3px;
+  margin-top: 3px;
+  height: 40px;
 }
 
 div.menu > ul li:hover > ul.submenu{

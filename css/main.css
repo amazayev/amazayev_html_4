@@ -1,0 +1,71 @@
+.box{
+  width: 1000px;
+  overflow: hidden;
+}
+
+.box p{
+  font-family: serif;
+  font-size: 18px;
+  color: rgb(66, 76, 67);
+}
+
+h2{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fon1{
+  width: 100%;
+  background-color: rgb(237, 238, 240);
+  float: left;
+  position: relative;
+  right: 50%;
+  z-index: 1;
+}
+
+.fon2{
+  width: 100%;
+  background: rgb(255, 255, 255);
+  float: left;
+  position: relative;
+  right: 25%;
+  z-index: 1;
+}
+
+.fon3{
+  width: 100%;
+  background: rgb(237, 238, 240);
+  float: left;
+}
+
+.left_column{
+  width: 25%;
+  float: left;
+  overflow: hidden;
+  position:relative;
+  left: 75%;
+  text-align: center;
+  padding-bottom: 10px;
+  }
+
+.center_column{
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  position:relative;
+  left:75%;
+  text-align: center;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.right_column{
+  width: 25%;
+  float: left;
+  overflow: hidden;
+  position:relative;
+  left:75%;
+  text-align: center;
+  padding-bottom: 10px;
+  }
