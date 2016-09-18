@@ -1,5 +1,7 @@
 body{
   background-image: url(../img/background.jpg);
+  height: 1050px;
+  width: 100%;
+  background-position: center center;
   background-repeat: repeat-x;
-  background-size: cover;
 }
