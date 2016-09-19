@@ -1,7 +1,10 @@
 body{
   background-image: url(../img/background.jpg);
-  height: 1050px;
   width: 100%;
-  background-position: center center;
+  min-width: 1250px;
+  height: auto;
+  min-height: 900px;
   background-repeat: repeat-x;
+  background-size: contain;
+  background-attachment: fixed;
 }
